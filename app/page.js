@@ -18,7 +18,28 @@ export default function Home() {
         <NavigationMenu>
             <NavigationMenuList>
                 <NavigationMenuItem>
-                    <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
+                    <NavigationMenuTrigger>Home</NavigationMenuTrigger>
+                    <NavigationMenuContent>
+                        <NavigationMenuLink>Link</NavigationMenuLink>
+                    </NavigationMenuContent>
+                </NavigationMenuItem>
+
+                <NavigationMenuItem>
+                    <NavigationMenuTrigger>Profile</NavigationMenuTrigger>
+                    <NavigationMenuContent>
+                        <NavigationMenuLink>Link</NavigationMenuLink>
+                    </NavigationMenuContent>
+                </NavigationMenuItem> 
+
+                <NavigationMenuItem>
+                    <NavigationMenuTrigger>User Details</NavigationMenuTrigger>
+                    <NavigationMenuContent>
+                        <NavigationMenuLink>Link</NavigationMenuLink>
+                    </NavigationMenuContent>
+                </NavigationMenuItem> 
+
+                <NavigationMenuItem>
+                    <NavigationMenuTrigger>Secondary User</NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <NavigationMenuLink>Link</NavigationMenuLink>
                     </NavigationMenuContent>
